@@ -1,0 +1,39 @@
+# Environment variables and API keys (CRITICAL: DO NOT COMMIT)
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.secret
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Distribution and builds
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# OS & temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
